@@ -3,55 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    
-     <meta name="google-site-verification" content="Pppobf6LQ9PSdX2nKouynaLVdkSz8O9AAkpTjsqNOTI" />
-    
+    <meta name="google-site-verification" content="Pppobf6LQ9PSdX2nKouynaLVdkSz8O9AAkpTjsqNOTI" />
     <title>PubMate - The Ultimate Beer Counter</title>
     <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            text-align: center; 
-            padding: 50px 20px; 
-            background-color: #121212; 
-            color: #ffffff; 
-            line-height: 1.6; 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+            margin: 0;
         }
-        h1 { 
-            color: #FFC107; 
-            font-size: 3em; 
-            margin-bottom: 10px; 
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
         }
-        p { 
-            font-size: 1.2em; 
-            color: #B0BEC5; 
-            max-width: 600px; 
-            margin: 0 auto 20px auto; 
+        h1 {
+            color: #FFC107;
+            font-size: 3.5em;
+            margin-bottom: 5px;
         }
-        a { 
-            color: #29B6F6; 
-            text-decoration: none; 
-            font-weight: bold; 
+        .subtitle {
+            font-size: 1.3em;
+            color: #B0BEC5;
+            margin-bottom: 40px;
         }
-        a:hover { 
-            text-decoration: underline; 
-            color: #4FC3F7; 
+        .info-section {
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            text-align: left;
+            border-left: 4px solid #FFC107;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
         }
-        .footer { 
-            margin-top: 60px; 
-            font-size: 0.9em; 
-            color: #78909C; 
+        .info-section h2 {
+            color: #FFC107;
+            margin-top: 0;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            color: #E0E0E0;
+            margin: 0;
+            font-size: 1.1em;
+        }
+        a {
+            color: #FFC107;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #FFE082;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.95em;
+            color: #78909C;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+        .footer a {
+            color: #29B6F6;
+        }
+        .footer a:hover {
+            color: #4FC3F7;
         }
     </style>
 </head>
 <body>
-    <h1>PubMate</h1>
-    <p>The ultimate mobile beer counter for your night out.</p>
-    <p>We are currently preparing for our official launch on the Google Play Store. Stay tuned!</p>
+    <div class="container">
+        <h1>PubMate</h1>
+        <p class="subtitle">The ultimate mobile beer counter for your night out.</p>
 
-    <div class="footer">
-        <p><a href="privacy.html">Privacy Policy</a></p>
-        <p>Contact the developer: <a href="mailto:tomasvyo.dev@gmail.com">tomasvyo.dev@gmail.com</a></p>
+        <div class="info-section">
+            <h2>How it works</h2>
+            <p>PubMate is a minimalist app designed to quickly track your beer consumption without distractions. Create your personal list of pubs, start a session, and count your drinks with a single tap. We don't use GPS, ensuring your privacy and saving your battery life.</p>
+        </div>
+
+        <div class="info-section">
+            <h2>Why we need your data</h2>
+            <p>PubMate offers Google Sign-In to securely create your account, back up your local database, and sync your drinking stats and favorite pubs across your devices. We only request basic profile information strictly for authentication purposes.</p>
+        </div>
+
+        <p style="margin-top: 30px; color: #B0BEC5;">We are currently preparing for our official launch on the Google Play Store. Stay tuned!</p>
+
+        <div class="footer">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p>Contact the developer: <a href="mailto:tomasvyo.dev@gmail.com">tomasvyo.dev@gmail.com</a></p>
+        </div>
     </div>
 </body>
 </html>
